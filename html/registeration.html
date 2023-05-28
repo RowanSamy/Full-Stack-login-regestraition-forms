@@ -1,0 +1,32 @@
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="rscript.js"></script>
+</head>
+<body>
+  <h1 id="title">Registeration Form</form></h1>
+  <form action="registration.php" id="form" class="subform" method="post">
+  <div>
+    <label for="name" class="text">Name</label>
+    <input type="text" id="name" name="name">
+    <div id="error" class="red"></div>
+  </div>
+  <div>
+    <label for="email" class="text">Email</label>
+    <input type="text" id="email" name="email">
+    <div id="error1" class="red"></div>
+  </div>
+  <div>
+    <label for="pwd" class="text">Password</label>
+    <input type="password" id="pwd" class="pass" name="pass" minlength="8" >
+    <div id="error2" class="red"></div>
+  </div>
+  <div>
+    <label for="pwd" class="text">Confirm Password</label>
+    <input type="password" id="pwd1" class="pass" minlength="8">
+    <div id="error3" class="red"></div>
+  </div>
+    <button type="submit" class="submit">Submit</button>
+  </form>
+</body>
+</html>
